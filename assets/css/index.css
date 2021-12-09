@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.general-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 40px;
+  padding-top: 50px;
+  background-color: #FBFBFB;
+}
+
+.general-navs {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.g-navs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.g-navs img {
+  width: 27px;
+}
+
+.g-navs span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding-top: 10px;
+  color: #9A9FAD;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-inline: 80px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.search {
+  margin-right: 100px;
+}
+
+.search input {
+  width: 230px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F2F4F5;
+}
+
+.search input::placeholder {
+  color: #9A9FAD;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 16px;
+  text-transform: uppercase;
+}
+
+.mini-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mini-menu img {
+  padding-inline: 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 100px;
+}
+
+.nav a {
+  padding-inline: 15px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  color: #9A9FAD;
+}
+
+.cards {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.card img {
+  margin-top: 45px;
+  margin-bottom: 32px;
+}
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card-header-one h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.rate {
+  border-radius: 7px;
+  padding: 2px 7px;
+}
+
+.rate span {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.price h2 {
+  font-family: 'Tomorrow', sans-serif;
+  margin-bottom: 4px;
+  color: #0F111D;
+  font-size: 1.8125rem;
+  font-weight: 600;
+}
+
+.price p {
+  color: #9D9DAE;
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+/* btc card styling */
+
+.btc {
+  background-color: #FDF9E5;
+  margin-right: 30px;
+}
+
+.btc  .card-header .card-header-one h2 {
+  color: #8B7F50;
+}
+
+.btc  .card-header .card-header-one p {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: #C1AF6A;
+  margin-top: 5px;
+}
+
+.btc .rate {
+  background-color: #FBE591;
+  color: #8B7F50;
+}
+
+/* eth card styling */
+
+.eth {
+  background-color: #DAF7E8;
+}
+
+.eth .card-header .card-header-one h2 {
+  color: #5D9378;
+}
+
+.eth .card-header .card-header-one p {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: #83A393;
+  margin-top: 5px;
+}
+
+.eth .rate {
+  background-color: #A9D1BD;
+  color: #5D9378;
+}
+
+/* ltc card styling */
+
+.ltc {
+  background-color: #FFE1E1;
+  margin-left: 30px;
+}
+
+.ltc .card-header .card-header-one h2 {
+  color: #A36B6B;
+}
+
+.ltc .card-header .card-header-one p {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: #B78181;
+  margin-top: 5px;
+}
+
+.ltc .rate {
+  background-color: #FFB6B6;
+  color: #A26B6B;
+}
+
+/* Transaction history styling */
+
+.more-details {
+  width: 100%;
+  margin: 90px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.transaction {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+
+.t-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.t-header h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #061423;
+  line-height: 1.5625rem;
+}
+
+.period {
+  background-color: #F1F2FB;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.period span {
+  padding-right: 10px;
+  color: #35404E;
+  font-size: 0.625rem;
+  line-height: 0.9375rem;
+}
+
+.ts-head span {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #A6AEC9;
+}
+
+.ts-head p {
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.swaps {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.swaps-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.swaps-header h3 {
+  color: #061423;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.6 rem;
+}
+
+.more {
+  background-color: #F1F2FB;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.more span {
+  color: #2A316F;
+  font-size: 0.6875rem;
+  font-weight: 700;
+}
+
+.pair {
+  margin-top: 19px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pair span {
+  text-transform: uppercase;
+  color: #A6AEC9;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.swap-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.swap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.swap-icons {
+  position: relative;
+  margin-right: 25px;
+}
+
+.swap-icons img {
+  width: 34px;
+}
+
+.rippleicon {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+
+}
+
+.swap-scan p {
+  font-size: 0.75rem;
+  color: #2A316F;
+  margin-bottom: 3px;
+}
+
+.swap-scan span {
+  font-size: 0.625rem;
+  color: #9A9FAD;
+}
+
+.swap-value span {
+  font-family: 'Tomorrow', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: #2A316F;
+}
